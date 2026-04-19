@@ -43,35 +43,7 @@
       },
       {
         "file": ".gitignore",
-        "hash": "14388703368273409146"
-      },
-      {
-        "file": ".idea/.gitignore",
-        "hash": "8740358584459896180"
-      },
-      {
-        "file": ".idea/ai-fitness-coach.iml",
-        "hash": "13360848387431630234"
-      },
-      {
-        "file": ".idea/git_toolbox_prj.xml",
-        "hash": "15285805677366238817"
-      },
-      {
-        "file": ".idea/misc.xml",
-        "hash": "14873857623023855459"
-      },
-      {
-        "file": ".idea/modules.xml",
-        "hash": "1939591518483642673"
-      },
-      {
-        "file": ".idea/nx-angular-config.xml",
-        "hash": "10237204418965800804"
-      },
-      {
-        "file": ".idea/vcs.xml",
-        "hash": "10702585895602644957"
+        "hash": "9054759199131842195"
       },
       {
         "file": ".prettierignore",
@@ -127,76 +99,41 @@
       }
     ],
     "projectFileMap": {
-      "utils": [
+      "ui": [
         {
-          "file": "libs/utils/jest.config.ts",
-          "hash": "9887570460101222398"
-        },
-        {
-          "file": "libs/utils/package.json",
-          "hash": "17769451257377438446"
-        },
-        {
-          "file": "libs/utils/project.json",
-          "hash": "17225293466384520896"
-        },
-        {
-          "file": "libs/utils/src/__tests__/angle.spec.ts",
-          "hash": "10600369874692920122",
+          "file": "libs/ui/package.json",
+          "hash": "8160356038889215522",
           "deps": [
+            "npm:react@18.3.1",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "libs/ui/project.json",
+          "hash": "144258125695225498"
+        },
+        {
+          "file": "libs/ui/src/components/AngleDisplay.tsx",
+          "hash": "4620675878904528084",
+          "deps": [
+            "npm:react@18.3.1"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/FeedbackPanel.tsx",
+          "hash": "3239840895540510888",
+          "deps": [
+            "npm:react@18.3.1",
             "types"
           ]
         },
         {
-          "file": "libs/utils/src/__tests__/repCounter.spec.ts",
-          "hash": "16041314259495907938"
+          "file": "libs/ui/src/index.ts",
+          "hash": "13072555405396922270"
         },
         {
-          "file": "libs/utils/src/analysis/squatAnalyzer.ts",
-          "hash": "1233723826757317391",
-          "deps": [
-            "types"
-          ]
-        },
-        {
-          "file": "libs/utils/src/angle.ts",
-          "hash": "13821277601574008294",
-          "deps": [
-            "types"
-          ]
-        },
-        {
-          "file": "libs/utils/src/index.ts",
-          "hash": "7887890790328271095"
-        },
-        {
-          "file": "libs/utils/src/repCounter.ts",
-          "hash": "8166671263712198113",
-          "deps": [
-            "types"
-          ]
-        },
-        {
-          "file": "libs/utils/tsconfig.json",
-          "hash": "4508299143895451960"
-        }
-      ],
-      "types": [
-        {
-          "file": "libs/types/package.json",
-          "hash": "4496121515089939173"
-        },
-        {
-          "file": "libs/types/project.json",
-          "hash": "4031268173144526011"
-        },
-        {
-          "file": "libs/types/src/index.ts",
-          "hash": "12109934899088610806"
-        },
-        {
-          "file": "libs/types/tsconfig.json",
-          "hash": "4508299143895451960"
+          "file": "libs/ui/tsconfig.json",
+          "hash": "6001147459032721426"
         }
       ],
       "mobile": [
@@ -261,148 +198,6 @@
         {
           "file": "apps/mobile/tsconfig.json",
           "hash": "6299463261745110549"
-        }
-      ],
-      "api": [
-        {
-          "file": "apps/api/Dockerfile",
-          "hash": "9849419419557666003"
-        },
-        {
-          "file": "apps/api/build.gradle.kts",
-          "hash": "16432098877478971702"
-        },
-        {
-          "file": "apps/api/gradle/wrapper/gradle-wrapper.jar",
-          "hash": "11159507676440420948"
-        },
-        {
-          "file": "apps/api/gradle/wrapper/gradle-wrapper.properties",
-          "hash": "8762867083220539782"
-        },
-        {
-          "file": "apps/api/gradlew",
-          "hash": "6060786803447223319"
-        },
-        {
-          "file": "apps/api/gradlew.bat",
-          "hash": "17042353372718049082"
-        },
-        {
-          "file": "apps/api/project.json",
-          "hash": "10313426441493875842"
-        },
-        {
-          "file": "apps/api/settings.gradle.kts",
-          "hash": "431065526091323911"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/AiFitnessApplication.kt",
-          "hash": "8330550450827111174"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/auth/AuthController.kt",
-          "hash": "10747267663473147794"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/auth/AuthService.kt",
-          "hash": "16590146143592740377"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/auth/JwtAuthFilter.kt",
-          "hash": "3370276051739440097"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/auth/JwtTokenProvider.kt",
-          "hash": "17466961572268338433"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/auth/RefreshRequest.kt",
-          "hash": "7236072936828736547"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/common/GlobalExceptionHandler.kt",
-          "hash": "7636931246905044619"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/config/SecurityConfig.kt",
-          "hash": "13596342211670491045"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/subscription/Subscription.kt",
-          "hash": "6393123600282761337"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/subscription/SubscriptionController.kt",
-          "hash": "14594108756247926691"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/subscription/SubscriptionRepository.kt",
-          "hash": "6542605508845731769"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/subscription/SubscriptionService.kt",
-          "hash": "13481813462188397262"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/user/User.kt",
-          "hash": "16435461829730568796"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/user/UserController.kt",
-          "hash": "10055129319209782254"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/user/UserDtos.kt",
-          "hash": "5540588535864102608"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/user/UserRepository.kt",
-          "hash": "4153924506720668272"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/workout/WorkoutController.kt",
-          "hash": "8991254934282207244"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/workout/WorkoutDtos.kt",
-          "hash": "7081913083759344410"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/workout/WorkoutService.kt",
-          "hash": "11115182236885793581"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/workout/WorkoutSession.kt",
-          "hash": "13751266855049447644"
-        },
-        {
-          "file": "apps/api/src/main/kotlin/com/aifitness/api/workout/WorkoutSessionRepository.kt",
-          "hash": "6330423100832637643"
-        },
-        {
-          "file": "apps/api/src/main/resources/application.yml",
-          "hash": "13527250124727739098"
-        },
-        {
-          "file": "apps/api/src/main/resources/db/migration/V1__create_users.sql",
-          "hash": "11044930185461597030"
-        },
-        {
-          "file": "apps/api/src/main/resources/db/migration/V2__create_workouts.sql",
-          "hash": "13432931246383856148"
-        },
-        {
-          "file": "apps/api/src/main/resources/db/migration/V3__create_subscriptions.sql",
-          "hash": "18037050192411488294"
-        },
-        {
-          "file": "apps/api/src/test/kotlin/com/aifitness/api/auth/AuthIntegrationTest.kt",
-          "hash": "4989233858349168377"
-        },
-        {
-          "file": "apps/api/src/test/resources/application.yml",
-          "hash": "6342964037227194428"
         }
       ],
       "web": [
@@ -613,43 +408,6 @@
           "hash": "13238950918689526920"
         }
       ],
-      "ui": [
-        {
-          "file": "libs/ui/package.json",
-          "hash": "8160356038889215522",
-          "deps": [
-            "npm:react@18.3.1",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "libs/ui/project.json",
-          "hash": "144258125695225498"
-        },
-        {
-          "file": "libs/ui/src/components/AngleDisplay.tsx",
-          "hash": "4620675878904528084",
-          "deps": [
-            "npm:react@18.3.1"
-          ]
-        },
-        {
-          "file": "libs/ui/src/components/FeedbackPanel.tsx",
-          "hash": "3239840895540510888",
-          "deps": [
-            "npm:react@18.3.1",
-            "types"
-          ]
-        },
-        {
-          "file": "libs/ui/src/index.ts",
-          "hash": "13072555405396922270"
-        },
-        {
-          "file": "libs/ui/tsconfig.json",
-          "hash": "6001147459032721426"
-        }
-      ],
       "config": [
         {
           "file": "libs/config/package.json",
@@ -666,6 +424,220 @@
         {
           "file": "libs/config/tsconfig.json",
           "hash": "17467106970468369631"
+        }
+      ],
+      "utils": [
+        {
+          "file": "libs/utils/jest.config.ts",
+          "hash": "9887570460101222398"
+        },
+        {
+          "file": "libs/utils/package.json",
+          "hash": "17769451257377438446"
+        },
+        {
+          "file": "libs/utils/project.json",
+          "hash": "17225293466384520896"
+        },
+        {
+          "file": "libs/utils/src/__tests__/angle.spec.ts",
+          "hash": "10600369874692920122",
+          "deps": [
+            "types"
+          ]
+        },
+        {
+          "file": "libs/utils/src/__tests__/repCounter.spec.ts",
+          "hash": "16041314259495907938"
+        },
+        {
+          "file": "libs/utils/src/analysis/squatAnalyzer.ts",
+          "hash": "1233723826757317391",
+          "deps": [
+            "types"
+          ]
+        },
+        {
+          "file": "libs/utils/src/angle.ts",
+          "hash": "13821277601574008294",
+          "deps": [
+            "types"
+          ]
+        },
+        {
+          "file": "libs/utils/src/index.ts",
+          "hash": "7887890790328271095"
+        },
+        {
+          "file": "libs/utils/src/repCounter.ts",
+          "hash": "8166671263712198113",
+          "deps": [
+            "types"
+          ]
+        },
+        {
+          "file": "libs/utils/tsconfig.json",
+          "hash": "4508299143895451960"
+        }
+      ],
+      "types": [
+        {
+          "file": "libs/types/package.json",
+          "hash": "4496121515089939173"
+        },
+        {
+          "file": "libs/types/project.json",
+          "hash": "4031268173144526011"
+        },
+        {
+          "file": "libs/types/src/index.ts",
+          "hash": "12109934899088610806"
+        },
+        {
+          "file": "libs/types/tsconfig.json",
+          "hash": "4508299143895451960"
+        }
+      ],
+      "api": [
+        {
+          "file": "apps/api/Dockerfile",
+          "hash": "9849419419557666003"
+        },
+        {
+          "file": "apps/api/build.gradle.kts",
+          "hash": "16432098877478971702"
+        },
+        {
+          "file": "apps/api/gradle/wrapper/gradle-wrapper.jar",
+          "hash": "11159507676440420948"
+        },
+        {
+          "file": "apps/api/gradle/wrapper/gradle-wrapper.properties",
+          "hash": "8762867083220539782"
+        },
+        {
+          "file": "apps/api/gradlew",
+          "hash": "6060786803447223319"
+        },
+        {
+          "file": "apps/api/gradlew.bat",
+          "hash": "17042353372718049082"
+        },
+        {
+          "file": "apps/api/project.json",
+          "hash": "10313426441493875842"
+        },
+        {
+          "file": "apps/api/settings.gradle.kts",
+          "hash": "431065526091323911"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/AiFitnessApplication.kt",
+          "hash": "8330550450827111174"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/auth/AuthController.kt",
+          "hash": "10747267663473147794"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/auth/AuthService.kt",
+          "hash": "16590146143592740377"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/auth/JwtAuthFilter.kt",
+          "hash": "3370276051739440097"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/auth/JwtTokenProvider.kt",
+          "hash": "17466961572268338433"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/auth/RefreshRequest.kt",
+          "hash": "7236072936828736547"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/common/GlobalExceptionHandler.kt",
+          "hash": "7636931246905044619"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/config/SecurityConfig.kt",
+          "hash": "13596342211670491045"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/subscription/Subscription.kt",
+          "hash": "6393123600282761337"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/subscription/SubscriptionController.kt",
+          "hash": "14594108756247926691"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/subscription/SubscriptionRepository.kt",
+          "hash": "6542605508845731769"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/subscription/SubscriptionService.kt",
+          "hash": "13481813462188397262"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/user/User.kt",
+          "hash": "16435461829730568796"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/user/UserController.kt",
+          "hash": "10055129319209782254"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/user/UserDtos.kt",
+          "hash": "5540588535864102608"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/user/UserRepository.kt",
+          "hash": "4153924506720668272"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/workout/WorkoutController.kt",
+          "hash": "8991254934282207244"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/workout/WorkoutDtos.kt",
+          "hash": "7081913083759344410"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/workout/WorkoutService.kt",
+          "hash": "11115182236885793581"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/workout/WorkoutSession.kt",
+          "hash": "13751266855049447644"
+        },
+        {
+          "file": "apps/api/src/main/kotlin/com/aifitness/api/workout/WorkoutSessionRepository.kt",
+          "hash": "6330423100832637643"
+        },
+        {
+          "file": "apps/api/src/main/resources/application.yml",
+          "hash": "13527250124727739098"
+        },
+        {
+          "file": "apps/api/src/main/resources/db/migration/V1__create_users.sql",
+          "hash": "11044930185461597030"
+        },
+        {
+          "file": "apps/api/src/main/resources/db/migration/V2__create_workouts.sql",
+          "hash": "13432931246383856148"
+        },
+        {
+          "file": "apps/api/src/main/resources/db/migration/V3__create_subscriptions.sql",
+          "hash": "18037050192411488294"
+        },
+        {
+          "file": "apps/api/src/test/kotlin/com/aifitness/api/auth/AuthIntegrationTest.kt",
+          "hash": "4989233858349168377"
+        },
+        {
+          "file": "apps/api/src/test/resources/application.yml",
+          "hash": "6342964037227194428"
         }
       ]
     }
