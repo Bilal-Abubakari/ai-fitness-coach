@@ -8,6 +8,7 @@ build
 .env
 .env.local
 .env.*.local
-.nx/cache
+.nx
 coverage
-
+.gradle
+**/.gradle/
