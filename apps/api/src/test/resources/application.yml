@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb;MODE=PostgreSQL;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+  flyway:
+    enabled: false
+
+app:
+  jwt:
+    secret: test-secret-key-that-is-long-enough-for-hmac-sha256
+    access-token-expiry-ms: 900000
+    refresh-token-expiry-ms: 604800000
+  stripe:
+    secret-key: sk_test_dummy
+    webhook-secret: whsec_dummy
+    monthly-price-id: price_dummy_monthly
+    yearly-price-id: price_dummy_yearly
+  cors:
+    allowed-origins: http://localhost:3000
+

@@ -1,0 +1,6 @@
+{
+  "name": "config",
+  "targets": { "lint": { "executor": "@nx/eslint:lint" } },
+  "tags": ["scope:shared"]
+}
+

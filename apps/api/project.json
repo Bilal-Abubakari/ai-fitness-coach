@@ -1,0 +1,35 @@
+{
+  "name": "api",
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node -e \"const {execSync}=require('child_process'),w=process.platform==='win32';execSync(w?'gradlew.bat bootRun':'./gradlew bootRun',{stdio:'inherit',shell:true})\"",
+        "cwd": "apps/api"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "outputs": ["apps/api/build/libs"],
+      "options": {
+        "command": "node -e \"const {execSync}=require('child_process'),w=process.platform==='win32';execSync(w?'gradlew.bat bootJar -x test':'./gradlew bootJar -x test',{stdio:'inherit',shell:true})\"",
+        "cwd": "apps/api"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node -e \"const {execSync}=require('child_process'),w=process.platform==='win32';execSync(w?'gradlew.bat test':'./gradlew test',{stdio:'inherit',shell:true})\"",
+        "cwd": "apps/api"
+      }
+    },
+    "lint": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node -e \"const {execSync}=require('child_process'),w=process.platform==='win32';execSync(w?'gradlew.bat ktlintCheck':'./gradlew ktlintCheck',{stdio:'inherit',shell:true})\"",
+        "cwd": "apps/api"
+      }
+    }
+  },
+  "tags": ["scope:api"]
+}

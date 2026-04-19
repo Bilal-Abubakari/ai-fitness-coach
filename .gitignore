@@ -1,0 +1,13 @@
+node_modules
+dist
+.next
+out
+build
+.expo
+*.log
+.env
+.env.local
+.env.*.local
+.nx/cache
+coverage
+

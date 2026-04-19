@@ -1,0 +1,22 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-native",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "paths": {
+      "@fitness/types": ["../../libs/types/src/index.ts"],
+      "@fitness/utils": ["../../libs/utils/src/index.ts"],
+      "@fitness/config": ["../../libs/config/src/index.ts"]
+    }
+  },
+  "include": [
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "../../libs/types/src/**/*.ts",
+    "../../libs/utils/src/**/*.ts",
+    "../../libs/config/src/**/*.ts"
+  ]
+}
+

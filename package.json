@@ -1,0 +1,35 @@
+{
+  "name": "ai-fitness-coach",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "web": "nx serve web",
+    "api": "nx run api:serve",
+    "mobile": "nx start mobile",
+    "build:web": "nx build web",
+    "test": "nx run-many --target=test --all",
+    "lint": "nx run-many --target=lint --all",
+    "affected:test": "nx affected --target=test",
+    "affected:lint": "nx affected --target=lint",
+    "affected:build": "nx affected --target=build"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.5",
+    "@eslint/js": "^10.0.1",
+    "@nx/eslint": "^20.0.0",
+    "@nx/eslint-plugin": "^22.6.5",
+    "@nx/expo": "^20.0.0",
+    "@nx/js": "^20.0.0",
+    "@nx/next": "^20.0.0",
+    "@nx/react": "^20.0.0",
+    "@nx/workspace": "^20.0.0",
+    "@types/node": "^22.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.58.2",
+    "@typescript-eslint/parser": "^8.58.2",
+    "concurrently": "^9.2.1",
+    "eslint": "^9.0.0",
+    "nx": "^20.0.0",
+    "prettier": "^3.3.0",
+    "typescript": "^5.5.0"
+  }
+}

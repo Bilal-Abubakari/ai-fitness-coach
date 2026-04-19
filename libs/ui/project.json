@@ -1,0 +1,11 @@
+{
+  "name": "ui",
+  "targets": {
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    }
+  },
+  "tags": ["scope:shared"]
+}
+

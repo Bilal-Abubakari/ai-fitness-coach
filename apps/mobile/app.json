@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "AI Fitness Coach",
+    "slug": "ai-fitness-coach",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#030712"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.aifitness.coach",
+      "infoPlist": {
+        "NSCameraUsageDescription": "We need your camera to analyze your exercise form in real-time."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#030712"
+      },
+      "package": "com.aifitness.coach",
+      "permissions": ["CAMERA"]
+    },
+    "plugins": ["expo-camera"],
+    "extra": {
+      "apiUrl": "http://localhost:8080"
+    }
+  }
+}
+
