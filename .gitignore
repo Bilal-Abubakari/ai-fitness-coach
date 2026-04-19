@@ -10,5 +10,6 @@ build
 .env.*.local
 .nx
 coverage
-.gradle
+
+.gradle/
 **/.gradle/
